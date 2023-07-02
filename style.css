@@ -1,0 +1,190 @@
+*{
+    left: 0;
+    top: 0;
+    scroll-behavior: smooth;
+}
+.body{
+    margin-left: 40px;
+}
+.header{
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-around;
+}
+.name{
+    margin-top: -3px;
+    font-size: large;
+    font-family: sans-serif;
+    color: rgb(57, 45, 45);
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.name_logo{
+    display: flex;
+}
+.items{
+    display: flex;
+    
+}
+
+.items a{
+    padding: 0 25px;
+    text-decoration: none;
+    font-size: 900;
+}
+.iteams{
+    color: rgba(0, 0, 0, .5);
+    font-family: sans-serif;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.iteams:hover{
+    transform: scale(1.2);
+}
+.download_button{
+    margin-top: 15px;
+    box-sizing: border-box;
+    background-color: #04ddb2;
+    height: 48px;
+    width: 129px;
+    border-radius: 24px;
+    border-color: #04ddb2;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+} 
+.download_button:hover{
+    transform: scale(1.1);
+}
+.download{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    align-items: center;
+    padding-top: 5px;
+    margin-top: 5px;
+    text-align: center;
+    
+}
+.texta{
+    margin: 2px 10px;
+}
+
+/* main section */
+
+.main_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+.main_heading{
+    display: flex;
+    
+}
+.maha_text{
+    font-size: 60px;
+    font-weight: 799;
+    cursor: default;
+    font-family: sans-serif;
+    margin-bottom: 2px;
+    padding-right: 10px;
+    color: rgba(0, 0, 0, .8);
+}
+.maha_textA{
+    font-size: 60px;
+    font-weight: 799;
+    cursor: default;
+    font-family: sans-serif;
+    margin-bottom: 2px;
+    padding-right: 10px;
+    color: #04ddb2;
+}
+.main_caption{
+    color: rgba(0, 0, 0, .7);
+    font-family: sans-serif;
+    font-weight: 200; 
+    font-size: 25px;
+    font-style: normal;
+}
+.main_img{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding-left: 130px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.main_img:hover{
+    transform: scale(1.05);
+}
+.second_heading{
+    text-align: center;
+}
+.horizontal{
+    margin: 100px 50px;
+}
+
+
+/* footer section */
+
+.footer{
+    display: flex;
+    margin: 20px 120px 150px 120px;
+    justify-content: space-evenly;
+
+}
+.lubo_icons{
+    display: flex;
+    margin-top: -80px;
+}
+.about, .general, .resources{
+    margin-top: -60px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .8);
+    padding-bottom: 30px;
+}
+.social_icons{
+    margin-top: -60px;
+    display: flex;
+}
+.staylis{
+    font-family: sans-serif;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.staylis:hover{
+    transform: scale(1.2);
+}
+.social_icons{
+    display: flex;
+}
+.twitter{
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #04ddb2;
+    position: relative;
+    z-index: 1;
+    margin-right: 15px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.iconsA{
+    padding-top: 5px;
+    padding-left: 5px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    z-index: 2;
+    color: white;
+}
+.twitter:hover{
+    transform: scale(1.2);
+}
